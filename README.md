@@ -2,7 +2,7 @@
 
 A .NET client supports Central Authentication Service ([CAS](https://apereo.github.io/cas/6.6.x/protocol/CAS-Protocol.html)).
 
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/kyzala/AlastackAuthenticationCas/dotnet.yml?branch=main)](https://github.com/kyzala/AlastackAuthenticationCas/actions/workflows/dotnet.yml)[![GitHub](https://img.shields.io/github/license/kyzala/Alastack.Authentication.Cas)](LICENSE)[![Nuget](https://img.shields.io/nuget/v/AlastackAuthenticationCas)](https://www.nuget.org/packages/Alastack.Authentication.Cas)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/kyzala/AlastackAuthenticationCas/dotnet.yml?branch=main)](https://github.com/kyzala/AlastackAuthenticationCas/actions/workflows/dotnet.yml)[![GitHub](https://img.shields.io/github/license/kyzala/AlastackAuthenticationCas)](LICENSE)[![Nuget](https://img.shields.io/nuget/v/Alastack.Authentication.Cas)](https://www.nuget.org/packages/Alastack.Authentication.Cas)
 
 ## Getting started
 
