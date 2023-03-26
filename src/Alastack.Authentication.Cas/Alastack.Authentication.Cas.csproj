@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<Version>1.0.0</Version>
+	<Authors>kyzala</Authors>
+	<Copyright>Copyright © 2023 kyzala</Copyright>
+	<PackageTags>Alastack;Authentication;Cas;AspNetCore;Security</PackageTags>
+	<PackageIcon>icon.png</PackageIcon>
+	<Description>A .NET client supports Central Authentication Service (CAS).</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageProjectUrl>https://github.com/kyzala/AlastackAuthenticationCas</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/kyzala/AlastackAuthenticationCas</RepositoryUrl>
+	<RespositoryType>git</RespositoryType>
+	<IncludeSymbols>true</IncludeSymbols>
+	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\icon.png" Pack="true" PackagePath="\" Visible="False" />
+	</ItemGroup>
+</Project>

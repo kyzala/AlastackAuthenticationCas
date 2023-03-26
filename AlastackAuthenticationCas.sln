@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6DD0E58F-2BBC-476D-87C8-54144F648255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{BF60A301-FF3A-4473-A83F-6B8D6492C6BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A42179A6-6E85-4587-8FD0-321A04941BDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alastack.Authentication.Cas", "src\Alastack.Authentication.Cas\Alastack.Authentication.Cas.csproj", "{200F2B88-CCA1-4B1F-8BD4-14C20676D7C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebMvc", "samples\WebMvc\WebMvc.csproj", "{CB7D9B87-902B-4712-A29F-8A8ADAD6DF43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{200F2B88-CCA1-4B1F-8BD4-14C20676D7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200F2B88-CCA1-4B1F-8BD4-14C20676D7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200F2B88-CCA1-4B1F-8BD4-14C20676D7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200F2B88-CCA1-4B1F-8BD4-14C20676D7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB7D9B87-902B-4712-A29F-8A8ADAD6DF43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB7D9B87-902B-4712-A29F-8A8ADAD6DF43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB7D9B87-902B-4712-A29F-8A8ADAD6DF43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB7D9B87-902B-4712-A29F-8A8ADAD6DF43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{200F2B88-CCA1-4B1F-8BD4-14C20676D7C3} = {6DD0E58F-2BBC-476D-87C8-54144F648255}
+		{CB7D9B87-902B-4712-A29F-8A8ADAD6DF43} = {BF60A301-FF3A-4473-A83F-6B8D6492C6BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3DC9B15-AA95-4DFA-BEBD-443300D3346F}
+	EndGlobalSection
+EndGlobal
