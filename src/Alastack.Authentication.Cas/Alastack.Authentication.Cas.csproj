@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
-	<Version>1.0.0</Version>
+	<Version>1.1.0</Version>
 	<Authors>kyzala</Authors>
 	<Copyright>Copyright © 2023 kyzala</Copyright>
-	<PackageTags>Alastack;Authentication;Cas;AspNetCore;Security</PackageTags>
+	<PackageTags>Alastack;Auth;Authentication;Cas;AspNetCore</PackageTags>
 	<PackageIcon>icon.png</PackageIcon>
 	<Description>A .NET client supports Central Authentication Service (CAS).</Description>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
